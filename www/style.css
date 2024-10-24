@@ -1,0 +1,90 @@
+    #add-task-container {
+      position: fixed;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      display: flex;  
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+    
+    #fab-add {
+       -webkit-user-select: none;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background-color: #be0f34;
+      color: white;
+      border: none;
+      font-size: 1.2em;
+    }
+
+    #fab-add:active {
+      background-color: #ef9a9a;
+      color: #999999;
+    }
+
+    #task-name {
+      flex-grow: 1;
+      height: 64px;
+      margin-right: 15px;
+      background-color: #cfcfcb;
+      font-family: Helvetica;
+      font-weight: bold;
+    }
+
+    #tareas {
+      padding: 0%;
+    }
+
+    .tarea {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+      border-bottom: 3px solid #170106;
+      font-family: Helvetica;
+      font-weight: bold;
+      color: white;
+      user-select: none;
+    }
+
+    #tareas li {
+      transition: transform 0.3s ease-out;
+    }
+
+    #tareas li.seleccionado {
+      background-color: #999999;
+    }
+
+    #tareas li.eliminando {
+      transform: translateX(100%);
+    }
+
+    header {
+      width: 100%;
+      margin: 0%;
+      background-color: #be0f34;
+    }
+
+    footer {
+      height: 15%;
+    }
+
+    h1 {
+      font-family: Helvetica;
+      text-align: center;
+      color: #f7f7f4;
+    }
+
+    body {
+      background-color: #424242;
+      overflow-x: hidden;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
